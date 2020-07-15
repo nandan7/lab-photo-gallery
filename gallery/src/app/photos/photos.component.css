@@ -1,0 +1,39 @@
+.photos {
+  display: inline-grid;
+  padding-left: 400px;
+  grid-template-columns: repeat(3, 5vw);
+  grid-template-rows: repeat(3, 5vw);
+  grid-gap: 10px;
+  padding-top: 10px;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-row-start: 1;
+}
+
+.item2 {
+  grid-column-start: 4;
+  grid-row-start: 1;
+}
+
+.item3 {
+  grid-column-start: 6;
+  grid-row-end: 2;
+  grid-row-start: 1;
+}
+
+.item4 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+.item5 {
+  grid-column-start: 1;
+  grid-row-start: 25;
+}
+
+.item6 {
+  grid-column-start: 6;
+  grid-row-start: 25;
+}

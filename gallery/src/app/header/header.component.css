@@ -1,0 +1,12 @@
+header {
+  background-color: orangered;
+  color: white;
+  height: 30px;
+  font-family: sans-serif;
+}
+
+div {
+  padding-top: 0.3rem;
+  margin-top: 10px;
+  padding-left: 10px;
+}
